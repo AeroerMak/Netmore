@@ -1,59 +1,5 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------------------------------
 
-    Theme Name: Cinzel
-    Theme URI: http://
-    Description: Creative Agency & Portfolio
-    Author: ThemesCamp
-    Author URI: http://themeforest.net/user/ThemesCamp
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
-/* ----------------------------------------------------------------
-
-== Table Of Content
-
-    |--- BASE
-
-        |- utility
-        |- typography
-        |- helper classes
-
-    |--- SHORTCODES
-
-        |- extra
-        |- overlay
-        |- section-heading
-        |- buttons
-        |- navbar
-        |- sliders
-        |- intro
-        |- feature-box
-        |- clients
-        |- counter
-        |- portfolio
-        |- process
-        |- progress-bar
-        |- tabs
-        |- team
-        |- testimonials
-        |- blog
-        |- contact-form
-        |- footers
-
-    |--- BASE
-
-        |- Colors Skin
-
-
-    |--- BASE
-
-        |- responsive
-	
-
-
----------------------------------------------------------------- */
-/* ====================== [ Start Utility  ] ====================== */
 @media screen and (max-width: 768px) {
   .container, .container-md, .container-sm {
     max-width: 720px; } }
@@ -583,9 +529,18 @@ main {
   height: 5px;
   z-index: 10000001;
   background-color: #ff7425;
-  -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  -o-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out; }
+  -webkit-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  -o-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out; }
   .cursor-inner.cursor-hover {
     opacity: 0; }
   .cursor-inner.cursor-scroll {
@@ -608,9 +563,21 @@ main {
   box-sizing: border-box;
   opacity: .5;
   z-index: 10000000;
-  -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, background-color .3s, opacity .3s;
-  -o-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, background-color .3s, opacity .3s;
-  transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, background-color .3s, opacity .3s; }
+  -webkit-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ background-color .3s,
+ opacity .3s;
+  -o-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ background-color .3s,
+ opacity .3s;
+  transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ background-color .3s,
+ opacity .3s; }
   .cursor-outer.cursor-hover {
     margin-left: -40px;
     margin-top: -40px;
@@ -1676,9 +1643,12 @@ main {
       font-size: 50px;
       opacity: 0;
       visibility: hidden;
-      -webkit-transition: opacity .5s, visibility .5s;
-      -o-transition: opacity .5s, visibility .5s;
-      transition: opacity .5s, visibility .5s; }
+      -webkit-transition: opacity .5s,
+ visibility .5s;
+      -o-transition: opacity .5s,
+ visibility .5s;
+      transition: opacity .5s,
+ visibility .5s; }
     .slider .parallax-slider .caption p {
       color: #eee;
       margin-top: 15px;
